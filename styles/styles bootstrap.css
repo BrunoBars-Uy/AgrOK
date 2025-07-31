@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double&display=swap');
+
+.fixed{
+    position: fixed;
+    display: inline;
+    top: 5px;
+    height: 65px;
+    right: 5px;
+    background-color: rgb(238, 238, 234);
+    width: 100%;
+}
+li{
+    list-style: none;
+    border: 2px solid  rgb(223, 223, 217);
+    display: justify;
+    float: inline-end;
+    right: 10px;
+}
+
+body{
+    margin-top: 100px;
+    font-size: medium;
+    background-color: rgb(83, 156, 83);
+}
+h1{
+    color: rgb(223, 223, 217);
+}
+a{
+    padding: 0%;
+    text-decoration: none;
+    color: rgb(223, 223, 217);
+}
+
+footer{
+    color: aliceblue;;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(114, 114, 111);
+}

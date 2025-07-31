@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double&display=swap');
+
+.fixed{
+    position: fixed;
+    display: inline;
+    top: 5px;
+    height: 65px;
+    right: 5px;
+    background-color: rgb(238, 238, 234);
+    width: 100%;
+}
+li{
+    list-style: none;
+    border: 2px solid  rgb(223, 223, 217);
+    display: justify;
+    float: inline-end;
+    right: 10px;
+}
+
+body{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(83, 156, 83);
+    margin-top: 75px;
+}
+h1{
+    color: rgb(223, 223, 217);
+    font-size: x-large;
+}
+
+footer{
+    color: aliceblue;;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(114, 114, 111);
+    align-items: center;
+    padding: 0.5%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.contacto{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+}
+.fromname{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+.footer{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 100px;
+}
