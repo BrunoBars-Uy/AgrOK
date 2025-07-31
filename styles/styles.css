@@ -60,3 +60,9 @@ nav{
     grid-template-columns: 1fr 1fr;
     height: 100px;
 }
+.videoexperiencias{
+    display: flex;
+}
+.videodesc{
+    max-width: 450px;
+}
