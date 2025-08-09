@@ -4,31 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AgrPOK - Nosotros</title>
-    <link rel="stylesheet" href="../styles/styles.css">
     <link rel="shortcut icon" href="../assets/images/FotoYoPasto.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/stylesbs.css">
 </head>
 <body>
-    <header class="fixed">   
-        <!-- En el header voy a dejar el: Logo, Nombre, Titulo y Barra de Navegacion--> 
-        <a href="../index.html">
-            <img src="../assets/images/LogoAgrOk.png" alt="LogoAgrOk">
-        </a>
-        <nav>
-            <ul>
-                <li>
-                <li>
-                    <a href="contacto.html">Contacto</a>
-                </li>
-                <li>
-                    <a href="nosotros.html">Nosotros</a>
-                </li>
-                <li>
-                    <a href="servicios.html">Servicios</a>
-                </li>
-                <li>
-                    <a href="experiencias.html">Experiencias</a>
-                </li>
+    <header class="container">
+        <div class="row">
+        </div>
+        <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                <img src="../assets/images/LogoAgrOk.png" alt="LogoAgrOk"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Somos AgrOK</hm/5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+            <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./experiencias.html">Experiencias</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
             </ul>
+        </div>
         </nav>
     </header>
     <main>
@@ -49,23 +60,53 @@
                 <hr>
         </section>
     </main>
-    <footer class="flex">
-        <section class="caja a">
-        <h3>© Derechos Reservados</h3>
-        <h4>Creado con 🪄 por Bruno Barros 🎩</h4>
-        </section>
-        <section class="caja b">
-            <p>Contactanos</p>
-        <nav>
-            <a href="https://www.linkedin.com/in/bruno-barros-utermark-contador/" target="_blank">
-                <img src="../assets/images/LogoLinkedIn.webp" alt="Logo de linkedin" title="linkedin de Bruno" width=10% height=10%>
-            </a>
-            <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank">
-                <img src="../assets/images/LogoWhatsApp.webp" alt="Logo de WhatsApp" width=7% height=7%>
-            </a>
-        </nav>
-        </section>
+<footer>
+    <nav class="navbarf navbar-expand-md">
+        <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                    <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./experiencias.html">Experiencias</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./contacto.html">Contacto</a>
+                </li>
+                </ul>
+        </div>
+    </nav>
+        <div class="row d-flex">
+        <div class="col-6 d-flex justify-content-center">
+            <h3>© Derechos Reservados</h3>
+        </div>
+        <div class="col-6 d-flex justify-content-center">
+            <p>Contactanos por:</p>
+        </div>
+        <div class="col-6 d-flex justify-content-center">
+            <h4>Creado con 🪄 por Bruno Barros 🎩</h4>
+        </div>
+        <div class="col-6 d-flex justify-content-center">
+            <nav>
+                <a href="https://www.linkedin.com/in/bruno-barros-utermark-contador/" target="_blank">
+                    <img src="../assets/images/LogoLinkedIn.webp" alt="Logo de linkedin" title="linkedin de Bruno" style="width: 7vh;"><em>LinkedIn</em>
+                </a>
+                <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank">
+                    <img src="../assets/images/LogoWhatsApp.webp" alt="Logo de WhatsApp" style="width: 5vh;"><em>WhatsApp</em>
+                </a>
+            </nav>
+        </div>
     </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </body>
 </html>
