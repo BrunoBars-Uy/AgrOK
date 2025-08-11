@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap");
+* {
+  font-family: Nata Sans;
+}
+
+h1, h3, p {
+  text-decoration-color: rgba(255, 255, 255, 0.788);
+}
+
+h2, h4 {
+  text-decoration-color: dark;
+}
+
+/*# sourceMappingURL=stylesbs.css.map */
