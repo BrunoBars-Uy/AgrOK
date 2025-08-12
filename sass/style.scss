@@ -1,0 +1,8 @@
+@use "variables" as v;
+@use "header";
+@use "footer";
+@use "body";
+
+*{
+    font-family: v.$fuente1;
+}
