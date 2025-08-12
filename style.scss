@@ -9,6 +9,18 @@ $imagensize: 15vh;
     font-family: $fuente1;
 }
 
+.body{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 450px;
+    overflow-x: hidden;
+    background: #000;
+}
+footer{
+    display: flex;
+    overflow: hidden;
+}
+
 h1,h3,p{
     text-decoration-color: $colortextlight;
 }
