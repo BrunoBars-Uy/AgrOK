@@ -4,3 +4,18 @@ $fuente1: Nata Sans;
 $colortextdark: #000;
 $colortextlight: rgba(255, 255, 255, 0.89);
 $imagensize: 15vh;
+
+@keyframes movezoom {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(2vh);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+%mover{
+    animation: movezoom 1s ease-in-out infinite;
+}

@@ -1,4 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=swap");
+@keyframes movezoom {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(2vh);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.h2 {
+  animation: movezoom 1s ease-in-out infinite;
+}
+
 .fixed {
   position: fixed;
   display: inline;
@@ -61,6 +76,10 @@ body {
 .contacto .form {
   display: block;
   place-items: center;
+}
+
+.card:hover {
+  scale: 1.1;
 }
 
 * {
