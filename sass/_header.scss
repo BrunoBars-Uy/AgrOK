@@ -1,11 +1,7 @@
 @use "variables" as v;
 
-.fixed{
-    position: fixed;
-    display: inline;
-    top: 5px;
-    height: 65px;
-    right: 5px;
-    background-color: rgb(238, 238, 234);
-    width: 100%;
+.header{
+    .navbartop{
+    overflow: hidden;
+        }
 }
