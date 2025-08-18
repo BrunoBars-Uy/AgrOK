@@ -18,6 +18,15 @@
   overflow: hidden;
 }
 
+.navbar img {
+  max-width: 100%;
+  height: auto;
+}
+
+.navbar .container-fluid {
+  overflow-x: hidden;
+}
+
 footer {
   overflow: hidden;
   color: aliceblue;
