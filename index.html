@@ -10,9 +10,7 @@
     <meta name="author" content="Bruno Barros Utermark">
     <link rel="shortcut icon" href="./assets/images/FotoYoPasto.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="./styles/stylesbs.css">
 </head>
 <body>
@@ -75,28 +73,28 @@
                 <p>Te invitamos a recorrer nuestra web donde podrás encontrar experiencias de productores, aprender sobre nuevas practicas, y por supuesto contactarte con nosotros para comenzar a trabjar juntos.</p>
             </div>
             <hr>
-    <div id="carouselExampleCaptions" class="carousel slide" style="width: 80%; max-width: 650px;">
+    <div id="carouselExampleCaptions" class="carousel slide">
     <div class="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
         <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
-    <div class="carousel-inner">
+    <div class="carousel-inner imagecard">
         <div class="carousel-item active">
             <img src="./assets/images/TrabajoCampo1.png" class="d-block img-fluid" alt="Hombre trabajando en campo con animales">
             <div class="carousel-caption d-none d-md-block text-bg-dark">
                 <a class="nav-link" href="pages/experiencias.html"> <h5>Experiencias</h5></a> 
                 <p>Trabajamos con gusto y eso se ve reflejado en los resultados nuestros y de nuestros clientes, poder vivir en un entorno natural y producir en el de forma sostenible, nos hace sentir orgullosos.</p>
+            </div>
         </div>
-    </div>
-    <div class="carousel-item">
+    <div class="carousel-item imagecard">
         <img src="./assets/images/FotoCampo.png" class="d-block img-fluid" alt="Foto vaca en el campo">
         <div class="carousel-caption d-none d-md-block text-bg-dark">
             <a class="nav-link" href="pages/servicios.html"> <h5>Asesoramiento en Presupuestación Forrajera</h5></a>        
             <p>Te asesoramos y acompañamos en el proceso de presupuestar tu oferta y demanda forrajera</p>
         </div>
     </div>
-    <div class="carousel-item">
+    <div class="carousel-item imagecard">
         <img src="./assets/images/fotocampoconcarretel.jpg" class="d-block img-fluid" alt="Foto lote de animales en campo">
         <div class="carousel-caption d-none d-md-block text-bg-dark">
             <a class="nav-link" href="pages/servicios.html"> <h5>Diseño de predios y parcelas para mejores resultados</h5></a>
@@ -127,30 +125,31 @@
 <footer>
     <div class="row">
         <div class="navbarf">
+            <nav class="navbar-expand-md">
             <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            <div class="col-12 justify-content-center navbar-collapse" id="navbarNav">
-                <div class="offcanvas-body">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="col-11 justify-content-center navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                            <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="pages/experiencias.html">Experiencias</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/servicios.html">Servicios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="pages/contacto.html">Contacto</a>
-                        </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="pages/experiencias.html">Experiencias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/nosotros.html">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                    </li>
                     </ul>
                 </div>
-            </div>
+            </nav>
         </div>
-    </div>
     <div class="row d-flex">
         <div class="col-6 d-flex justify-content-center">
             <h3>© Derechos Reservados</h3>
@@ -158,21 +157,21 @@
         <div class="col-6 d-flex justify-content-center">
             <p>Contactanos por:</p>
         </div></div>
-        <div class="row d-flex">
+    <div class="row d-flex">
         <div class="col-6 d-flex justify-content-center">
             <h4>Creado con 🪄 por Bruno Barros 🎩</h4>
         </div>
         <div class="col-6 d-flex justify-content-center">
             <nav>
                 <a href="https://www.linkedin.com/in/bruno-barros-utermark-contador/" target="_blank">
-                    <img src="./assets/images/LogoLinkedIn.webp" alt="Logo de linkedin" title="linkedin de Bruno" style="width: 7vh;"><em>LinkedIn</em>
+                    <img src="../assets/images/LogoLinkedIn.webp" alt="Logo de linkedin" title="linkedin de Bruno" style="width: 7vh;"><em>LinkedIn</em>
                 </a>
                 <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank">
-                    <img src="./assets/images/LogoWhatsApp.webp" alt="Logo de WhatsApp" style="width: 5vh;"><em>WhatsApp</em>
+                    <img src="../assets/images/LogoWhatsApp.webp" alt="Logo de WhatsApp" style="width: 5vh;"><em>WhatsApp</em>
                 </a>
             </nav>
         </div>
 </footer>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>
