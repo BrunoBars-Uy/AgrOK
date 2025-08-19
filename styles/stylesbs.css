@@ -40,6 +40,16 @@ footer {
   display: flex;
 }
 
+.footer {
+  overflow: hidden;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgba(114, 114, 111, 0.418);
+  align-items: center;
+  padding: 0%;
+  display: flex;
+}
+
 .row {
   display: flex;
   justify-content: center;
@@ -55,18 +65,28 @@ footer {
   font-weight: bolder;
 }
 .row a {
-  padding: 1vh;
+  padding: 1%;
 }
 
 body {
   display: flex;
   flex-wrap: wrap;
-  min-width: 450px;
   overflow-x: hidden;
   background-color: rgb(7, 37, 7);
-  margin-top: 85px;
+  margin-top: 90px;
 }
 body .header .navtop {
+  padding: 0;
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+  background-color: rgb(7, 37, 7);
+  margin-top: 90px;
+}
+.body .header .navtop {
   padding: 0;
 }
 
