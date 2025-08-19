@@ -14,6 +14,9 @@
   animation: movezoom 1s ease-in-out infinite;
 }
 
+.header {
+  padding: 0;
+}
 .header .navbartop {
   overflow: hidden;
 }
@@ -33,7 +36,7 @@ footer {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgba(114, 114, 111, 0.418);
   align-items: center;
-  padding: 0.5%;
+  padding: 0%;
   display: flex;
 }
 
@@ -62,6 +65,9 @@ body {
   overflow-x: hidden;
   background-color: rgb(7, 37, 7);
   margin-top: 85px;
+}
+body .header .navtop {
+  padding: 0;
 }
 
 .h3 {
