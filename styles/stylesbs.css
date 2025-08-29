@@ -57,6 +57,7 @@ footer {
 .row .navbarf {
   display: inline-block;
   overflow-x: hidden;
+  padding: 0;
 }
 .row .navbarf li {
   padding: 1vh;
@@ -73,7 +74,7 @@ body {
   flex-wrap: wrap;
   overflow-x: hidden;
   background-color: rgb(7, 37, 7);
-  margin-top: 90px;
+  margin-top: 18vh;
 }
 body .header .navtop {
   padding: 0;
@@ -101,8 +102,11 @@ body .header .navtop {
 }
 
 .videoyt {
+  max-width: 600px;
   width: 100%;
   height: auto;
+  aspect-ratio: 16/9;
+  padding-bottom: 5vh;
 }
 
 .contacto {
@@ -117,6 +121,10 @@ body .header .navtop {
 .contacto .form {
   display: block;
   place-items: center;
+}
+
+.card {
+  padding: 2vh;
 }
 
 .card:hover {

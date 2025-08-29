@@ -5,7 +5,7 @@ body{
     flex-wrap: wrap;
     overflow-x: hidden;
     background-color: rgb(7, 37, 7);
-    margin-top: 90px;
+    margin-top: 18vh;
     .header{
         .navtop{
             padding: 0;
@@ -38,8 +38,11 @@ body{
 } 
 
 .videoyt{
+    max-width: 600px;
     width: 100%;
     height: auto;
+    aspect-ratio: 16/9;
+    padding-bottom: 5vh;
 }
 .contacto{
     display: grid;
@@ -53,6 +56,9 @@ body{
         display: block;
         place-items: center;
     }
+}
+.card{
+    padding: 2vh;
 }
 .card:hover {
     scale: 1.1;
