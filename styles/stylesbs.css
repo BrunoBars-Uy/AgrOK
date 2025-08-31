@@ -129,7 +129,7 @@ body .header .navtop {
 
 .card {
   padding: 2vh;
-  width: 25%;
+  width: 30%;
 }
 .card .card-img-top {
   width: 100%;
@@ -137,14 +137,16 @@ body .header .navtop {
   aspect-ratio: 16/9;
 }
 
+/* 1 card en entre 992px y 600px */
 @media screen and (max-width: 992px) {
   .card {
-    width: 50%;
+    flex: 1 1 calc(50% - 20px);
   }
 }
+/* 1 card en menos de 600px */
 @media screen and (max-width: 600px) {
   .card {
-    width: 100%;
+    flex: 1 1 100%;
   }
 }
 .card:hover {
