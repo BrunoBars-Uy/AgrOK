@@ -62,10 +62,49 @@ body{
 }
 .card{
     padding: 2vh;
+    width: 25%;
+    .card-img-top {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+        }
 }
+
+@media screen and (max-width: 992px){
+        .card {
+        width: 50%;
+        }}
+
+@media screen and (max-width: 600px){
+        .card {
+            width: 100%;
+        }}
+
 .card:hover {
     scale: 1.1;
 }
 .h2{
     @extend %mover;
 }
+.formulario-contacto {
+    display: flex;
+    width: 100%;
+        // display: grid;
+        // grid-template-columns: 1fr 1fr;
+        // gap: 1vh;
+        // align-items: left;
+        // .col-1{
+        //     flex: 1;
+        // }
+        // .col-2{
+        //     flex: 1;
+        //     width: 90%;
+        // }
+    }
+.text-area{
+    display: flex;
+    width: 100%;
+    @media screen {
+        
+    }
+    }

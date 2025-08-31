@@ -129,12 +129,37 @@ body .header .navtop {
 
 .card {
   padding: 2vh;
+  width: 25%;
+}
+.card .card-img-top {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
 }
 
+@media screen and (max-width: 992px) {
+  .card {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+  }
+}
 .card:hover {
   scale: 1.1;
 }
 
+.formulario-contacto {
+  display: flex;
+  width: 100%;
+}
+
+.text-area {
+  display: flex;
+  width: 100%;
+}
 * {
   font-family: Nata Sans;
   color: aliceblue;
