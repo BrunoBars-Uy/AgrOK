@@ -117,6 +117,11 @@ body .header .navtop {
   place-items: center;
 }
 
+@media screen and (max-width: 600px) {
+  .contacto {
+    display: flex;
+  }
+}
 .carousel {
   max-width: 900px;
 }
@@ -146,7 +151,7 @@ body .header .navtop {
 /*card en menos de 600px */
 @media screen and (max-width: 600px) {
   .card {
-    flex: 1 1 100%;
+    flex: 1 1 90%;
   }
 }
 .card:hover {
