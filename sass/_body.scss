@@ -29,14 +29,6 @@ body{
     color: v.$colortextdark;
     }
 
-.imagecard{
-    img{
-        width: 100%;
-        height: auto;
-        aspect-ratio: 16/9;
-        }
-} 
-
 .videoyt{
     max-width: 600px;
     width: 100%;
@@ -69,46 +61,28 @@ body{
         aspect-ratio: 16/9;
         }
 }
-
-/* 1 card en entre 992px y 600px */
+.imagecard{
+    img{
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16/9;
+        }
+} 
+/*card en entre 992px y 600px */
 @media screen and (max-width: 992px) {
     .card {
         flex: 1 1 calc(50% - 20px);
     }
 }
-
-/* 1 card en menos de 600px */
+/*card en menos de 600px */
 @media screen and (max-width: 600px) {
     .card {
         flex: 1 1 100%;
     }
 }
-
 .card:hover {
     scale: 1.1;
 }
 .h2{
     @extend %mover;
 }
-.formulario-contacto {
-    display: flex;
-    width: 100%;
-        // display: grid;
-        // grid-template-columns: 1fr 1fr;
-        // gap: 1vh;
-        // align-items: left;
-        // .col-1{
-        //     flex: 1;
-        // }
-        // .col-2{
-        //     flex: 1;
-        //     width: 90%;
-        // }
-    }
-.text-area{
-    display: flex;
-    width: 100%;
-    @media screen {
-        
-    }
-    }
