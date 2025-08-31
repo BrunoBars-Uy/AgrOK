@@ -117,11 +117,6 @@ body .header .navtop {
   place-items: center;
 }
 
-@media screen and (max-width: 600px) {
-  .contacto {
-    display: flex;
-  }
-}
 .carousel {
   max-width: 900px;
 }
